@@ -1,0 +1,46 @@
+# Capstone Project Portfolio - Cyclistic Bike-Share Analysis
+
+## Introduction
+Our capstone project, titled "Cyclistic Bike-Share Analysis," was conducted as part of the Google Data Analytics course offered by Coursera. The objective of this project was to analyze historical bike trip data from Cyclistic, a fictional bike-share company, and provide actionable insights to convert casual riders into annual members. By understanding the differences between these two user groups and identifying trends in their behavior, we aimed to inform the company's marketing strategies, particularly in relation to digital media.
+
+## Tools Used
+- Excel: Used for data cleaning, analysis, and visualization.
+- RStudio: Utilized for advanced data manipulation, statistical analysis, and generating visualizations using R packages.
+- GitHub: Used for version control and collaborative development of code and project files.
+- ChatGPT: Employed as an AI language model to provide insights, answer questions, and assist in generating ideas.
+
+## Data Background
+For this analysis, we obtained the dataset from the official Cyclistic website, which contained twelve months' worth of data from January to December 2021. The dataset comprised 5,595,063 rows and 13 columns, making it impractical to analyze using traditional spreadsheet packages. Therefore, we leveraged the power of R and utilized several packages, including Tidyverse, Geosphere, Lubrdate, and Dplyr, to extract, clean, and analyze the data efficiently.
+
+## Data Extraction and Cleaning
+To prepare the data for analysis, we used R programming language and its associated packages. We processed the data by combining the individual CSV files into a single dataframe named "original_df." We then added new columns to calculate ride duration, ride distance, and trip date/time. To ensure data quality, we removed rows that did not originate or end at a station, had a duration or distance less than or equal to zero, resulting in a clean dataset named "clean_data" consisting of 4,311,258 rows and 19 columns.
+
+## Analysis of Dataset
+For our analysis, we aggregated relevant columns using R's functions and derived insights from the data. We calculated metrics such as membership type, cycle type, ride year, ride month, day of the week, hour of the day, number of rides, average distance, and average duration. These metrics were assigned to a pivot table or dataframe for further analysis.
+
+## Data Visualization
+To visually represent our findings, we utilized various data visualization techniques within R, such as ggplot2, plotly, or base R graphics. These tools allowed us to create informative charts, graphs, and plots to effectively communicate the key patterns and trends observed in the data.
+
+## Key Findings
+Based on our analysis, we identified several key findings:
+
+1. Annual members utilize Cyclistic more frequently compared to casual riders.
+2. The summer season experiences significant usage by both casual riders and annual members.
+3. Casual riders predominantly use Cyclistic on weekends, particularly on Saturdays, while annual members exhibit more consistent usage throughout the week.
+4. Casual riders tend to take longer rides and cover greater distances compared to annual members.
+5. Both casual riders and annual members prefer classic bikes over other cycle types.
+
+## Recommendations
+Based on our key findings, we propose the following recommendations to convert casual riders into annual members:
+
+1. Create Nights and Weekend Memberships: Introduce flexible membership options specifically tailored for casual riders who primarily use Cyclistic during evenings and weekends. These membership plans could offer discounted rates or additional benefits during these timeframes, incentivizing casual riders to become regular members.
+
+2. Hold Community Events for Engagement and Awareness: Organize community events in partnership with local organizations or businesses to promote Cyclistic and increase awareness among potential riders. These events can include group bike rides, safety workshops, or bike-sharing demos, creating opportunities for engagement and building a sense of community around Cyclistic.
+
+3. Improve Digital Marketing Strategies: Enhance digital media campaigns targeting casual riders to highlight the benefits of annual membership. Utilize social media platforms, targeted online advertisements, and email marketing to effectively reach and engage with this specific audience segment. Personalized messaging and special offers can be employed to encourage conversion from casual riders to annual members.
+
+4. Collaborate with Corporate Partners: Establish partnerships with local businesses, corporate offices, or educational institutions to offer exclusive membership discounts or benefits. By promoting Cyclistic as a convenient and sustainable transportation solution for employees or students, the company can attract a larger user base and increase the likelihood of conversion to annual memberships.
+
+By implementing these recommendations, Cyclistic can improve its conversion rate of casual riders to annual members, leading to increased revenue and long-term customer loyalty.
+
+Thank you for considering our Cyclistic Bike-Share Analysis for your review. We are confident that our insights and recommendations will contribute to the success of your marketing strategies.
