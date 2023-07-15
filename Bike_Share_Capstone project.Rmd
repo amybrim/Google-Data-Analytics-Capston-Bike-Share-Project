@@ -1,0 +1,48 @@
+---
+title: "Bike Share Capstone Project"
+author: "AmyB"
+date: "2023-07-13"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Hi, I'm Amy and this is my Google Data Analytics Capstone Project
+
+ My code for installing packages
+```{r}
+
+# Install and load necessary packages
+install.packages("tidyverse", repos = "http://cran.us.r-project.org")
+install.packages("DataExplorer", repos = "http://cran.us.r-project.org")
+install.packages("janitor", repos = "http://cran.us.r-project.org")
+install.packages("lubridate",repos = "http://cran.us.r-project.org")
+# install.packages("devtools")
+devtools::install_github("r-lib/conflicted")
+library(conflicted)
+library(dplyr)
+library(tidyverse)
+options(dplyr.summarise.inform = FALSE)
+library(DataExplorer)
+library(janitor)
+library(lubridate)
+
+library(readr)
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+
+
+```
+
